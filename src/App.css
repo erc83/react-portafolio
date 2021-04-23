@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root {
+    --primary-white: #fff;
+    --primary-black: #000000;
+    --primari-orange: #f44611;
+    --primari-dark: rgba(255,255,255,0);
+}
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+/*************navbar**************/
+.logo{
+    width: 100px;
+}
+
+/**************nab links*********************/
+nav a.nav-link{
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-right: 12px;
+    margin-left: 12px;
+    color: var(--primary-white) !important;
+    border-top: 3px solid var(--primari-dark) !important;
+}
+
+.navbar-brand {
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 3rem !important;
+}
+
+.navbar{
+    background-color: var(--primary-black) !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+    border-top: 3px solid var(--primari-orange) !important;
+}
+
+.navbar-nav > li > a:hover {
+    border-top: 3px solid var(--primari-orange) !important;
+}
+
+.hamburger{
+    color: var(--primary-white) !important;
+}
