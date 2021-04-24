@@ -3,6 +3,7 @@ import './App.css';
 import Particles from "react-particles-js"
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Features from "./components/Features"
 
 
 import "jquery/dist/jquery.slim";
@@ -36,6 +37,7 @@ function App() {
       />
       <Navbar />
       <Header />
+      <Features />
     </>
     );
   }
