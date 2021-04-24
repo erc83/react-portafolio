@@ -22,6 +22,8 @@ nav{
 
 .logo{
     width: 100px;
+    padding-top: 1.3rem;
+    position: relative;
 }
 /**************nab links*********************/
 nav a.nav-link{
@@ -41,7 +43,7 @@ nav ul li {
 .navbar-brand {
     max-width: 17.25rem;
     padding: 0 !important;
-    height: 3rem !important;
+    height: 5rem !important;
 }
 .navbar{
     background-color: var(--primary-black) !important;
@@ -60,12 +62,12 @@ nav ul li {
 
 .header-wraper{
     position: relative;
-    background: url(header.jpg) no-repeat;
+    background: url(./img/header.jpg) no-repeat;
     background-color: rgb(20,20,20);
     background-blend-mode: soft-light;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 86vh;
 }
 
 .main-info {
@@ -80,7 +82,7 @@ nav ul li {
     align-items: center;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    z-index: 2;
+    z-index: 3;
 }
 
 .main-info h1 {
@@ -117,7 +119,7 @@ nav ul li {
 
 .tsparticles-canvas-el {
     position: absolute;
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
     z-index: 1;
 
@@ -127,12 +129,20 @@ nav ul li {
     .particles-canvas {
         display: none;
     }
+    .header-wraper{
+        height: 60vh;
+    }
 }
+
+main{
+    
+    z-index: 2;
+}
+
 
 /*-------------Features-------------------*/
 
 #features{
-    position: absolute;
     background-color: var(--primary-white)!important;
     text-decoration: none;
     z-index: 1;

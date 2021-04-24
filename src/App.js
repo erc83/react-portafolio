@@ -3,7 +3,8 @@ import './App.css';
 import Particles from "react-particles-js"
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import Features from "./components/Features"
+import Main from "./components/Main"
+
 
 
 import "jquery/dist/jquery.slim";
@@ -27,7 +28,7 @@ function App() {
             shape: {
               type: "square",
               stroke: {
-                width: 6,
+                width: 5,
                 color: "#f9ab00"
               }
             }
@@ -37,8 +38,9 @@ function App() {
       />
       <Navbar />
       <Header />
-      <Features />
+      <Main />
     </>
+
     );
   }
   
